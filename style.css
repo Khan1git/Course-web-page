@@ -1,0 +1,451 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+
+
+/* Navigation bar */
+nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0vw 8vw;
+    top: 0;
+    z-index: 999;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.60)
+
+}
+
+nav img{
+    width: 145px;
+    cursor: pointer;
+}
+
+nav .navigation ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav .navigation ul li{
+    list-style: none;
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+
+nav .navigation ul li a{
+    text-decoration: none;
+    flex-wrap: wrap;
+    color: rgb(21, 21, 100);
+    font-size: 16px;
+    font-weight: 500px;
+    transition: 0.3s ease-in-out;
+
+}
+
+nav .navigation ul li a:Hover{
+    color: red;
+}
+
+/* HOME */
+
+#home{
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46,0.7)), url("file:///C:/Users/Arif%20Rahman/Downloads/pexels-quintin-gellar-313782.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+#home h2{
+    color: #fff;
+    text-align: center;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#home p{
+    text-align: center;
+    color: #fff;
+    width: 50%;
+    font-weight: 0.9rem;
+    line-height: 25px;
+}
+
+#home .btn{
+    margin-top: 30px;
+}
+
+#home a.blue{
+    color: #fff;
+    background-color: blue;
+}
+
+#home a.blue:hover{
+    background-color: white;
+    color: blue;
+}
+#home a.yellow{
+    color: #fff;
+    background-color: rgb(139, 139, 11);
+}
+
+#home a.yellow:hover{
+    background-color: white;
+    color: blue;
+}
+
+#home a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: #fff;
+    font-weight: 600px;
+    border-radius: 2px;
+}
+
+/* ------------------------ Feature Section ----------------------------------------------*/
+
+#features{
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#features .fea-base{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#features h1{
+    font-size: 50px;
+    color: blue;
+}
+
+#features .fea-box{
+    background-color: #f9f9f9;
+    text-align: start;
+    /* border: 2px solid; */
+    padding: 53px;
+    box-shadow: 0 3px 4px;
+}
+
+#features .fea-box h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(46, 46, 59);
+    padding: 13px 0 7px 0;
+}
+#features .fea-box p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(46, 46, 59);
+}
+
+/* --------------------------------------COurse------------------------------------- */
+
+#course{
+    padding: 8vw 8vw 8vw 8vw;
+    text-align: center;
+}
+
+#course .course-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#course h1{
+    font-size: 50px;
+    color: blue;
+}
+
+#course .courses{
+    text-align: start;
+    background-color: #F9F9FF;
+    height: 100%;
+    padding: 23px;
+    position: relative;
+}
+
+#course .courses img{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+}
+
+.courses .details{
+    padding: 15px 15px 0 15px;
+}
+
+#course .courses .cost{
+    background-color: rgb(74, 74, 136);
+    color: #fff;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    right: 15px;
+    bottom: 100px;
+
+}
+
+/* ----------------------- REGISTERATION PAFE CSSSS--------------------------- */
+
+
+#register{
+    padding: 6vw 8vw 6vw 8vw;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46,0.7)), url("file:///C:/Users/Arif%20Rahman/Downloads/pexels-veeterzy-303383.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+#register .reminder{
+    color: white;
+}
+
+#register .reminder h1{
+    font-size: 50px;
+    color: blue;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+#register .reminder .time{
+    display: flex;
+    margin-top: 40px;
+}
+
+
+#register .reminder .time .date{
+    text-align: center;
+    padding: 13px 44px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+    margin: 0 5px 10px 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    font-size: 1.1rem;
+    font-weight: 500;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+/* ----------------- FROM ------------------- */
+
+#register .form{
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+
+#register .form input{
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: 1px solid rgb(84, 40, 241);
+    outline: none;
+}
+
+#register .form  a.yellow{
+    text-decoration: none;
+    color: #fff;
+    padding: 9px;
+    background-color: rgb(139, 139, 11);
+    transition: 0.3s ease-in;
+}
+
+
+
+#register .form .btn{
+    margin-top: 20px;
+}
+
+#register .form a.yellow:hover{
+    background-color: white;
+    color: blue;
+}
+
+/* 0------------------- PROFILES=----------------------------------------------- */
+
+#experts{
+    padding: 8vw 8vw 8vw 8vw;
+    text-align: center;
+    padding: 60px;
+
+}
+
+#experts .exp-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#experts .exp-box .profiles{
+    background: #fafaf1;
+    padding: 30px 10px;
+}
+
+#experts .profiles img{
+    /* width: 112px; */
+    height: 180px;
+    border-radius: 108px;
+}
+
+#experts .profiles .links{
+    margin-top: 1rem;
+}
+
+#experts .profiles .links a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(139, 139, 11);
+    padding: 7px;
+}
+
+/* --------------------------------- FOoter */
+footer{
+    padding: 8vw;
+    background-color: #101c32;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; 
+}
+
+footer .footer-col{
+    padding: 10px;
+}
+
+footer h3{
+    color: rgb(241, 240, 345);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer li{
+    list-style: none;
+    color: #7b838a;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+footer li:hover{
+    color: rgb(241, 240, 345);
+
+}
+
+footer p{
+    color:  #7b838a;
+}
+
+footer .subscribe{
+    margin-top: 20px;
+}
+
+footer input{
+    width: 220px;
+    padding: 15px 12px;
+    background: #334f6c;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+
+footer .subscribe a{
+    text-decoration: none;
+    color: #fff;
+    background-color:  rgba(182, 194, 19, 0.815);
+    padding: 13px;
+
+}
+
+/* ---------------------------- Adding media qurries for responsivensess--------------------------------- */
+
+@media (max-width:956px) {
+
+    nav{
+        padding: 15px 20px ;
+    }
+
+    #home{
+        padding-top: 0px;
+
+    }
+    #home p{
+        width: 90%;
+    }
+
+    #register{
+        padding: 6vw 4vw 6vw 4vw;
+          
+    }
+    #register .reminder .time{
+        display: flex;
+        margin-top: 40px;
+        flex-wrap: wrap;
+    }
+    #register .form{
+        flex-wrap: wrap;
+    }
+
+    #experts{
+         padding: 8vw 8vw 4vw 8vw;
+    }
+
+    #course{
+        padding: 8vw 4vw 0 4vw
+    }
+}
+
+@media(max-width:475px){
+    #register{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #register .reminder .time{
+        display: flex ;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+
+    }
+}
