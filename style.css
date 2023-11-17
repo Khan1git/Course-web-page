@@ -61,7 +61,7 @@ nav .navigation ul li a:Hover{
 /* HOME */
 
 #home{
-    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46,0.7)), url("file:///C:/Users/Arif%20Rahman/Downloads/pexels-quintin-gellar-313782.jpg");
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46,0.7)), url("./Images/pexels-quintin-gellar-313782.jpg");
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -219,7 +219,7 @@ nav .navigation ul li a:Hover{
     padding: 6vw 8vw 6vw 8vw;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46,0.7)), url("file:///C:/Users/Arif%20Rahman/Downloads/pexels-veeterzy-303383.jpg");
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46,0.7)), url("./Images/pexels-veeterzy-303383.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
